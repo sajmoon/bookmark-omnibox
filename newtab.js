@@ -4,6 +4,7 @@ var bookmarkCollector = {
       for (var i = 0; i < results.length; i++) {
         $('#recentBookmarks').append(
           $('<li>').append(
+            $('<img>').attr('src', "chrome://favicon/" + results[i].url),
             $('<a>').attr('href', results[i].url).append(
               $('<span>').append(results[i].title)
               )
