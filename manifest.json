@@ -18,5 +18,9 @@
     "scripts": [
       "bookmark-omnibox.js"
     ]
+  
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
   }
 }
