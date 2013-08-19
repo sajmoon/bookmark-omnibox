@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Bookmarks extension",
+  "description": "A test to see if i can write a bookmark extension",
+  "version": "0.1",
+  "permissions": [
+    "bookmarks",
+    "tabs"
+  ],
+  "omnibox": {
+    "keyword":"b"
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": [
+      "bookmark-omnibox.js"
+    ]
+  }
+}
